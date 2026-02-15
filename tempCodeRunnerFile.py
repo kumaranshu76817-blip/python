@@ -1,0 +1,10 @@
+a = "anshu"
+print(len(a))
+print (a)
+print(a.upper())
+print(a.replace("anshu","anshu"))
+print(a.split(" "))
+print(a.capitalize())
+print(a.rstrip("!"))
+print(a.endswith("!!!"))
+print(a.find("n"))
