@@ -1,11 +1,8 @@
-def hello():
-    print("hello")
+class Employee:
+    def __init__(self,name):
+        self.name = name
+    def showDetails(self):
+        print(f"the name of the employee is {self.name}")
 
-hello()
-slaes1 = 6000
-profit1 = 2000
-ad1 = 1000
-
-slaes2 = 6000
-profit2 = 2000
-ad2 = 1000
+emp1 = Employee("anshu")
+emp1.showDetails()
