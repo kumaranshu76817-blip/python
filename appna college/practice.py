@@ -10,5 +10,16 @@ for el in nums:
 sum = 0
 for i in range(5):
     sum += i
+    i+=1
     
 print(sum)
+
+#wap to find the factorial of first n number.(using for)
+n = 5
+fact = 1
+i = 1
+while i<= n:
+    fact *=i
+    i += 1
+
+print("factoral", fact)
